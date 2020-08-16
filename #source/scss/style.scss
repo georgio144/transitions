@@ -1,0 +1,74 @@
+@import "nullstyle.scss";
+
+div {
+   display: block;
+   margin: 25px;
+   color: white;
+   text-decoration: none;
+   line-height: 60px;
+   text-transform: uppercase;
+   font-size: 25px;
+   letter-spacing: 2px;
+   border-radius: 10px;
+   width: 450px;
+   height: 50px;
+   position: relative;
+   text-align: center;
+   transition: 1s;
+}
+
+.one {
+   background-color: blue;
+   transition-timing-function: ease;
+}
+.two {
+   background-color: greenyellow;
+   transition-timing-function: ease-in;
+}
+.three {
+   background-color: pink;
+   transition-timing-function: ease-out;
+}
+.four {
+   background-color: blue;
+   transition-timing-function: ease-in-out;
+}
+.five {
+   background-color: greenyellow;
+   transition-timing-function: linear;
+}
+.six {
+   background-color: pink;
+   transition-timing-function: steps(5 end);
+}
+.seven {
+   background-color: blue;
+   transition-timing-function: cubic-beizer(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper:hover .one {
+   width: 900px;
+}
+.wrapper:hover .two {
+   width: 900px;
+}
+
+.wrapper:hover .three {
+   width: 900px;
+}
+
+.wrapper:hover .four {
+   width: 900px;
+}
+
+.wrapper:hover .five {
+   width: 900px;
+}
+
+.wrapper:hover .six {
+   width: 900px;
+}
+
+.wrapper:hover .seven {
+   width: 900px;
+}

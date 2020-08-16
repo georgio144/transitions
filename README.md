@@ -1,2 +1,3 @@
 # transitions
  
+Изучаем css transitions

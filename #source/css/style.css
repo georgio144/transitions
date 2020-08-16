@@ -10,7 +10,6 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -104,50 +103,42 @@ div {
   height: 50px;
   position: relative;
   text-align: center;
-  -webkit-transition: 1s;
-  transition: 1s;
+  transition: 10s;
 }
 
 .one {
   background-color: blue;
-  -webkit-transition-timing-function: ease;
-          transition-timing-function: ease;
+  transition-timing-function: ease;
 }
 
 .two {
   background-color: greenyellow;
-  -webkit-transition-timing-function: ease-in;
-          transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .three {
   background-color: pink;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
 
 .four {
   background-color: blue;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 .five {
   background-color: greenyellow;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
+  transition-timing-function: linear;
 }
 
 .six {
   background-color: pink;
-  -webkit-transition-timing-function: steps(5 end);
-          transition-timing-function: steps(5 end);
+  transition-timing-function: steps(5 end);
 }
 
 .seven {
   background-color: blue;
-  -webkit-transition-timing-function: cubic-beizer(0.68, -0.55, 0.265, 1.55);
-          transition-timing-function: cubic-beizer(0.68, -0.55, 0.265, 1.55);
+  transition-timing-function: cubic-beizer(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper:hover .one {
